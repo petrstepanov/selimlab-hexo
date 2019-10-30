@@ -1,0 +1,52 @@
+/* Card */
+
+.card {
+    /* background: rgba(233, 236, 239, 0.5); */
+    /* filter: drop-shadow(0 0 8px #ddd); */
+    border: 0;
+    // box-shadow:inset 0 0 0 1px rgba(0,0,0,0.15);
+}
+
+.card > img {
+    mix-blend-mode: multiply;
+}
+
+.card-columns .card {
+    margin-bottom: 1.2rem;
+}
+
+@include media-breakpoint-up(sm){
+    .card-columns {
+        column-count: 2;
+    }
+}
+ 
+@include media-breakpoint-up(md){
+    .card-columns {
+        column-count: 3;
+    }
+}
+
+/* Navs */
+
+.nav-link {
+    text-align: center;
+}
+
+.nav-pills .nav-link {
+    background-color: rgba(0,0,0,0.05);
+}
+
+
+/* Buttons */
+
+.btn {
+    img {
+        width: 2em;
+        height: 2em;
+    }
+}
+
+.btn-sm-square {
+    padding: 0.25rem 0.35rem;
+}

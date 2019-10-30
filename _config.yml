@@ -3,22 +3,29 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-keywords:
-author: John Doe
+title: SelimLab
+subtitle: Welcome to our research group at Bowling Green State University.
+description: Fundamental and applied research on wide band gap materials. Radiation damage studies.
+keywords: selimlab, research, material science, bgsu, farida, selim, icpa18
+author: Petr Stepanov
 language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
+
+# Production
+url: http://physics.bgsu.edu/selimlab
+root: /selimlab/
+
+# Testing
+# url: http://localhost:4000/selimlab
+# root: /selimlab/
+
+permalink: :title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
+  trailing_index: false # Set to false to remove trailing index.html from permalinks
 
 # Directory
 source_dir: source
@@ -40,7 +47,7 @@ external_link:
   exclude:
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -54,8 +61,8 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
-  per_page: 10
+  path: '/blog'
+  per_page: 50
   order_by: -date
 
 # Category & Tag
@@ -84,7 +91,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: selim
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,9 +1,10 @@
-<%- open_graph({ url: url.replace('/index.html', '/')}) %> 
-<%- css('css/app.css') %> 
-<body>
-  <%- body %>
-  <%- partial('_partial/footer') %>
-  <%- js('js/app.js') %>
-  <%- partial('_partial/analytics') %>
+<!DOCTYPE html>
+<html lang="en">
+<%- partial('_partial/head') %>
+<body id="layout">
+	<%- partial('_partial/menu') %>
+	<section id="content">
+		<%- body %>
+	</section>
 </body>
 </html>

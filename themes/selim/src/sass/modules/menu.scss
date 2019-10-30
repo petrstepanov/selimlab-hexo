@@ -1,0 +1,121 @@
+$menu-padding: 2.2em;
+
+// Orientation of the menu and content
+
+#layout {
+    #menu {
+        display: none;
+    }
+
+    @include media-breakpoint-up(sm) {
+        display: flex;
+        flex-direction: column;
+
+        #menu {
+            display: block;
+            position: static;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        #content {
+            flex-grow: 1;
+        }    
+
+        #text-content {
+            padding-left: $menu-padding;
+            padding-right: $menu-padding;
+        }
+    }
+
+    @include media-breakpoint-up(xl) {
+        flex-direction: row;
+
+        #menu {
+            text-align: left;
+            width: 21.5em;
+        }
+
+        #content {
+            flex-grow: 0;
+        }        
+
+        #text-content {
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    } 
+}
+
+
+// Menu styling
+
+#menu {
+    padding: $menu-padding;
+    background-color: $jumbotron-bg; // red; //rgb(233, 236, 239);
+}
+
+.logo {
+    height: 4.4em;
+}
+
+.menu-slogan {
+    color: $text-gray;
+    margin-top: 2em;
+    margin-bottom: 2.2em;
+}
+
+.menu-list-item {
+    line-height: 2;
+    list-style: none;
+
+    &:before {
+        content: "·";
+    }
+}
+
+.menu-link {
+    color: $body-color;
+    padding-left: 1em;
+    white-space: nowrap;
+
+    .icon {
+        font-size: 1.1em;
+    }
+
+    span {
+        text-decoration: underline;
+    }
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+@include media-breakpoint-only(sm){
+    // #menu {
+    //     font-size: 0.9em;
+    // }
+}
+
+@include media-breakpoint-between(sm, lg) {
+
+    .menu-list-item {
+        display: inline;
+        margin-left: 1.2em;
+        margin-right: 1.2em;
+
+        &:before {
+            content: "";
+        }
+    }
+
+    .menu-link {
+        padding-left: 0;
+    }
+
+    .menu-heading {
+        display: none;
+    }
+}

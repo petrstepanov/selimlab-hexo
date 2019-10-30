@@ -1,7 +1,27 @@
 # Header
+
+logo: /images/selimlab-logo-vector-with-text.svg
+
+slogan: Fundamental and applied research on wide band gap materials.<br />Radiation damage studies.
+
 menu:
-  Home: /
-  Archives: /archives
+  Dr. <span class="d-inline d-sm-none d-xl-inline">Farida A.</span> Selim: /
+  <span class="d-inline d-sm-none d-xl-inline">Research</span> Facilities: /facilities
+  Publications: /publications
+  Teaching: /teaching
+  Software<span class="d-inline d-sm-none d-xl-inline"> Development</span>: /software
+  People: /people
+  Blog: /blog
+
+links_projects:
+  Project FUTURE: /
+  ICPA-18 <span class="d-sm-none d-md-inline">conference</span>: https://www.bgsu.edu/icpa18.html
+  IWZnO 2020 <span class="d-sm-none d-md-inline">conference</span>: http://physics.bgsu.edu/IWZnO_2020/
+
+links_funding:
+  National Science Foundation: http://www.nsf.gov/
+  United States Air Force: http://www.airforce.com/
+
 rss: /atom.xml
 
 # Content

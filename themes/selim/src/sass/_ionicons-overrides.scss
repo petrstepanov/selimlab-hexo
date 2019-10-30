@@ -1,0 +1,14 @@
+.icon {
+    display: inline-block;
+    transform: translateY(0.1em);
+}
+
+// Extra icon size utilities
+
+.icon-large {
+    transform: translateY(0.1em) scale(1.4);
+}
+
+.icon-huge {
+    transform: translateY(0.1em) scale(2);
+}

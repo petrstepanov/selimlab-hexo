@@ -15,20 +15,26 @@ var log = require('gulplog');
 
 var paths = {
 	styles: {
-		src: ['./src/sass/app.scss'],
+		src: './src/sass/app.scss',
 		srcWatch: './src/sass/**/*.scss',
 		dest: './source/css'
 	},
 	scripts: {
-		entries: ['./src/js/app.js'],  // Only entry point for browserify
+		entries: './src/js/app.js',  // Only entry point for browserify
 		srcWatch: './src/js/**/*.js',
 		dest: './source/js'
 	},
 	fonts: {
-		src: ['./node_modules/typeface-zilla-slab/files/zilla-slab-latin-700.*',
-			'./node_modules/ionicons/dist/fonts/ionicons.w*',],
+		src: ['./node_modules/roboto-fontface/fonts/*oboto/Roboto-Regular.w*',
+				'./node_modules/roboto-fontface/fonts/*oboto/Roboto-Bold.w*',
+				'./node_modules/roboto-fontface/fonts/*oboto-slab/Roboto-Slab-Bold.w*',
+				'./node_modules/ionicons/dist/fonts/ionicons.*'],
 		dest: './source/fonts'
-	}
+	},
+	favicon: {
+		src: './src/realfavicongenerator/*.*',
+		dest: './source/'
+	}	
 };
 
 
@@ -41,10 +47,17 @@ function clean() {
 
 // Copy resources
 
-function copy() {
+function copyFonts() {
 	return gulp.src(paths.fonts.src)
 		.pipe(gulp.dest(paths.fonts.dest));
 }
+
+function copyFavicon() {
+	return gulp.src(paths.favicon.src)
+		.pipe(gulp.dest(paths.favicon.dest));
+}
+
+var copy = gulp.series(copyFonts, copyFavicon);
 
 // Styles Task
 

@@ -1,0 +1,24 @@
+<footer>
+    <hr>
+    <nav>
+        <ul>
+            <% for (var i in theme.menu){ %>
+                <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+            <% } %>	
+        </ul>
+    </nav>
+    <nav>
+        <ul>
+            <% for (var i in theme.links_projects){ %>
+                <li><a href="<%- theme.links_projects[i] %>" rel="nofollow" target="_blank"><%= i %></a><i class="icon ion-md-open ml-2"></i></li>
+            <% } %>	
+        </ul>
+    </nav>
+    <div class="row">
+        <div class="col-xs-12 col-md-10">
+            <p class="">Research is funded by <a href="#">National Science Foundation</a> and <a href="#">United States Air Force</a></p>
+        </div>
+        <div class="col-xs-12 col-md-2 text-md-right">
+            <p class="">Copyright © <%= new Date().getFullYear(); %></p>
+        </div>    
+</footer>
