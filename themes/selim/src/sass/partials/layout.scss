@@ -4,10 +4,20 @@ $menu-padding: 2.2em;
 
 #layout {
     #menu {
-        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 50;
     }
 
     @include media-breakpoint-up(sm) {
+        position: static;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        top: auto;
         display: flex;
         flex-direction: column;
 
@@ -48,8 +58,11 @@ $menu-padding: 2.2em;
 // Menu styling
 
 #menu {
-    padding: $menu-padding;
     background-color: $jumbotron-bg; // red; //rgb(233, 236, 239);
+
+    #menu-container {
+        padding: $menu-padding;
+    }
 }
 
 .logo {

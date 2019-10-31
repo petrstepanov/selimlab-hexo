@@ -2,11 +2,14 @@ $heading-colnainer-bg: white;
 $border-y-width: 3.68em;
 $border-x-width: 2em;
 
+body {
+    overflow-x: hidden;
+}
+
 .heading-container {
     text-align: center;
     margin-top: 2.2em;
     margin-bottom: 2.2em;
-    overflow: hidden;
 
     .heading {
         background-color: $heading-colnainer-bg;

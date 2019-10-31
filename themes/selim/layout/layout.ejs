@@ -2,6 +2,11 @@
 <html lang="en">
 <%- partial('_partial/head') %>
 <body id="layout">
+	<input type="checkbox" id="menu-checkbox" name="" value="">
+	<label id="menu-toggle" for="menu-checkbox" class="btn btn-lg btn-primary">
+		<span class="label-open"><i class="icon icon-large ion-md-menu mr-2"></i> Menu</span>
+		<span class="label-close"><i class="icon icon-large ion-md-close mr-2"></i> Close</span>
+	</label>
 	<%- partial('_partial/menu') %>
 	<section id="content">
 		<%- body %>		
