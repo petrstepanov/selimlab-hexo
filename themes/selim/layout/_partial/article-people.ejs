@@ -33,7 +33,14 @@
                                 <% for (var person in site.data.peopleFormer) { %>
                                     <%- partial('card/person', {person: site.data.peopleFormer[person]}) %>
                                 <% } %>
-                            </div>                                                  
+                            </div>
+                            <h2>Group Alumni</h2>
+                            <div class="row">
+                                <% for (var person in site.data.peopleAlumni) { %>
+                                    <%- partial('card/person', {person: site.data.peopleAlumni[person]}) %>
+                                <% } %>
+                            </div>
+    
                         </div>
                         <div class="article-footer">
                             <% if (post.comments && config.disqus_shortname){ %>

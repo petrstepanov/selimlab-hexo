@@ -1,20 +1,20 @@
 - image: index/bgsu-farida-selim.jpg
-  name: Farida Selim
+  name: Farida Selim 🇪🇬
   role: Principal Investigator
   details: Assistant Professor, Department of Physics and Astronomy, Center for Photochemical Sciences, Bowling Green State University, Overman Hall 172
   rg: https://www.researchgate.net/profile/Farida_Selim
   email: faselim@bgsu.edu
 
 - image: index/petr-stepanov-bgsu-2019.jpg
-  name: Petr Stepanov
+  name: Petr Stepanov 🇷🇺
   role: PhD student
-  details: Works with Lifetime and Doppler positron spectroscopy. Software development.
+  details: Works with Lifetime and Doppler positron spectroscopy. Desktop and web software development.
   rg: https://www.researchgate.net/profile/Petr_Stepanov2
   linkedin: https://www.linkedin.com/in/petrstepanov/
   email: petrs@bgsu.edu
 
 - image: index/sahil-agarwal-2.jpg
-  name: Sahil Agarwal
+  name: Sahil Agarwal 🇮🇳
   role: PhD student
   details: Works with photoluminescence and thermoluminescence experimnents. Currently working with transparent ceramics and nanopowders.
   rg: https://www.researchgate.net/profile/Sahil_Agarwal4
@@ -22,14 +22,14 @@
   email: asahil@bgsu.edu
 
 - image: index/armando-hernandez.jpg
-  name: Armando Hernandez
+  name: Armando Hernandez 🇲🇽
   role: PhD student
   details: Fluorescence. Fluorescence Imaging. Luminescence. Optical Materials.
   rg: https://www.researchgate.net/profile/Armando_Hernandez21
   email: aherna@bgsu.edu
 
 - image: index/minhaz-islam.jpg
-  name: Minhazul Islam
+  name: Minhazul Islam 🇳🇵
   role: PhD student
   details: Application of Thermoluminiscence (TL) Spectroscopy and Hall effect measurements on semiconductor materials.
   rg: https://www.researchgate.net/profile/Md_Minhazul_Islam

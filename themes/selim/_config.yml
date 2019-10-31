@@ -11,6 +11,7 @@ menu:
   Teaching: /teaching
   Software<span class="d-inline d-sm-none d-xl-inline"> Development</span>: /software
   People: /people
+  Events: /events  
   Blog: /blog
 
 menuFooter:
@@ -21,6 +22,7 @@ menuFooter:
   Teaching: /teaching
   Software: /software
   People: /people
+  Events: /events
   Blog: /blog
 
 links_projects:

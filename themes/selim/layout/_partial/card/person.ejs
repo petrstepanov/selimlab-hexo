@@ -2,7 +2,9 @@
     <div class="card mb-4">
         <img src="<%- person.image %>" class="card-img-top" alt="<%- person.name %>">
         <div class="card-body">
-            <h5 class="h4 card-title mb-0"><%- person.name %></h5>
+            <% if (person.name){ %>
+                <h5 class="h4 card-title mb-0"><%- person.name %></h5>
+            <% } %>            
             <% if (person.role){ %>
                 <p class="text-muted mt-0 mb-3"><small><i><%- person.role %></i></small></p>
             <% } %>
