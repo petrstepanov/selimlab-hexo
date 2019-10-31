@@ -17,21 +17,17 @@
 
                             <!-- <p class="lead"></p> -->
                             <h2>Synthesis Facilities</h2>
-                            <div class="row">
-                                <div class="card-columns">                                
-                                    <% for (var facility in site.data.facilitiesSynthesis) { %>
-                                        <%- partial('card/facility', {facility: site.data.facilitiesSynthesis[facility]}) %>
-                                    <% } %>
-                                </div>
+                            <div class="card-columns">                                
+                                <% for (var facility in site.data.facilitiesSynthesis) { %>
+                                    <%- partial('card/facility', {facility: site.data.facilitiesSynthesis[facility]}) %>
+                                <% } %>
                             </div>
                             <h2>Characterization Facilities</h2>
-                            <div class="row">
-                                <div class="card-columns">
-                                    <% for (var facility in site.data.facilitiesCharacterization) { %>
-                                        <%- partial('card/facility', {facility: site.data.facilitiesCharacterization[facility]}) %>
-                                    <% } %>
-                                </div>
-                            </div>                                             
+                            <div class="card-columns">
+                                <% for (var facility in site.data.facilitiesCharacterization) { %>
+                                    <%- partial('card/facility', {facility: site.data.facilitiesCharacterization[facility]}) %>
+                                <% } %>
+                            </div>
                         </div>
                         <div class="article-footer">
                             <% if (post.comments && config.disqus_shortname){ %>

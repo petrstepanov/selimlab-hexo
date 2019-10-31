@@ -4,6 +4,13 @@ subtitle: Teamwork makes the dream work
 date: 2019-10-31 01:24:03
 ---
 
+
+## Pooneh and Dave graduation party
+
+<p class="mt-0"><span class="text-muted">July 2019. Perrysburg.</span></p>
+<img class="w-100" src="index/perrysburg-summer-2019.JPG" alt="SelimLab celebrating Pooneh and Dave's graduation party">
+
+
 ## ICPA-18 SelimLab group picture
 
 <p class="mt-0"><span class="text-muted">August 2018. Sheraton Lake Buena Vista Resort, Orlando.</span></p>
