@@ -1,24 +1,31 @@
 <footer>
-    <hr>
-    <nav>
-        <ul>
-            <% for (var i in theme.menu){ %>
-                <li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
-            <% } %>	
-        </ul>
-    </nav>
-    <nav>
-        <ul>
-            <% for (var i in theme.links_projects){ %>
-                <li><a href="<%- theme.links_projects[i] %>" rel="nofollow" target="_blank"><%= i %></a><i class="icon ion-md-open ml-2"></i></li>
-            <% } %>	
-        </ul>
-    </nav>
-    <div class="row">
-        <div class="col-xs-12 col-md-10">
-            <p class="">Research is funded by <a href="#">National Science Foundation</a> and <a href="#">United States Air Force</a></p>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <hr class="mt-5 mb-5">
+                <nav>
+                    <ul class="list-unstyled mb-2">
+                        <% for (var i in theme.menuFooter){ %>
+                            <li class="footer-list-item"><a class="footer-link" href="<%- url_for(theme.menuFooter[i]) %>"><span><%- i %></span></a></li>
+                        <% } %>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="list-unstyled mb-2">
+                        <% for (var i in theme.links_projects){ %>
+                            <li class="footer-list-item"><a class="footer-link" href="<%- theme.links_projects[i] %>" rel="nofollow" target="_blank"><span><%- i %></span><i class="icon ion-md-open ml-2"></i></a></li>
+                        <% } %>
+                    </ul>
+                </nav>
+                <div class="row mt-4 pt-2 mb-4">
+                    <div class="col-xs-12 col-md-9">
+                        <p class="text-muted">Research is funded by <a href="#">National Science Foundation</a> and <a href="#">United States Air Force</a></p>
+                    </div>
+                    <div class="col-xs-12 col-md-3 text-md-right">
+                        <p class="text-muted">Copyright © <%= new Date().getFullYear(); %></p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-xs-12 col-md-2 text-md-right">
-            <p class="">Copyright © <%= new Date().getFullYear(); %></p>
-        </div>    
+    </div>
 </footer>

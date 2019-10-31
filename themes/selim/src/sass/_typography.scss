@@ -125,17 +125,26 @@ small, .small {
 
 .text-muted {
     color: $text-gray !important;
+
+    a {
+      color: $text-gray;
+      text-decoration: underline;
+
+      &:hover {
+        color: $body-color;
+      }
+    }
 }
 
-ul.spaced {
+ul.spaced, .article-inner ul {
   padding-left: 1em;
 }
 
-ol.spaced {
+ol.spaced, .article-inner ol {
   padding-left: 1.9em;
 }
 
-.spaced {
+.spaced, .article-inner ul, .article-inner ol {
   li {
     margin-top: $list-item-spacing;
     margin-bottom: $list-item-spacing;

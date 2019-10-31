@@ -1,0 +1,23 @@
+<div class="col-sm-6 col-md-4">
+    <div class="card mb-4">
+        <img src="<%- person.image %>" class="card-img-top" alt="<%- person.name %>">
+        <div class="card-body">
+            <h5 class="h4 card-title mb-0"><%- person.name %></h5>
+            <% if (person.role){ %>
+                <p class="text-muted mt-0 mb-3"><small><i><%- person.role %></i></small></p>
+            <% } %>
+            <% if (person.details){ %>
+                <p class="card-text"><small><%- person.details %></small></p>
+            <% } %>
+            <% if (person.rg){ %>
+                <a href="<%- person.rg %>" class="btn btn-success btn-sm btn-sm-square mr-1"><img src="../images/icon-rg.svg" alt="ResearcGate icon"></a>
+            <% } %>
+            <% if (person.linkedin){ %>
+                <a href="<%- person.linkedin %>" class="btn btn-primary btn-sm btn-sm-square mr-1"><img src="../images/icon-linkedin.svg" alt="LinkedIn icon"></a>
+            <% } %>
+            <% if (person.email){ %>
+                <a href="mailto:<%- person.email %>" class="btn btn-sm btn-link px-0"><%- person.email %></a>
+            <% } %>        
+        </div>
+    </div>
+</div>

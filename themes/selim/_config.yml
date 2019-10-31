@@ -13,6 +13,16 @@ menu:
   People: /people
   Blog: /blog
 
+menuFooter:
+  Dr. Selim: /
+  Facilities: /facilities
+  Publications: /publications
+  Research: /research
+  Teaching: /teaching
+  Software: /software
+  People: /people
+  Blog: /blog
+
 links_projects:
   Project FUTURE: /
   ICPA-18 <span class="d-sm-none d-md-inline">conference</span>: https://www.bgsu.edu/icpa18.html
@@ -25,7 +35,7 @@ links_funding:
 rss: /atom.xml
 
 # Content
-excerpt_link: Read More
+excerpt_link: Read More →
 fancybox: true
 
 # Sidebar

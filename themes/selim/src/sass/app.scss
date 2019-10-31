@@ -20,9 +20,9 @@ $roboto-font-path: './../fonts';
 @import "utilities";
 
 // Modules
+@import "partials/layout";
 @import "partials/heading";
 @import "partials/featured-image";
 
-@import "modules/menu";
 @import "modules/splash-screen";
 @import "modules/morph-navigation";

@@ -16,7 +16,10 @@ As well as we develop new hardware facilities we do software too. Most of our so
         <p>Software is designed to process two-dimensional energy spectra and output one-dimensional coincidence broadened Doppler spectrum.</p>
         <p>A background fitting and subtraction technique is developed and implemented.</p>
         <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
-        <p><a href="https://github.com/petrstepanov/tlist-processor" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
+        <p>
+            <a class="btn btn-primary" href="./../doppler-positron-annihilation-software">Learn more</a>
+            <a href="https://github.com/petrstepanov/tlist-processor" class="btn btn-link" rel="nofollow" target="_blank">View on GitHub →</a>
+        </p>
     </div>
 </div>
 
@@ -29,7 +32,10 @@ As well as we develop new hardware facilities we do software too. Most of our so
         <p>Program calculates S and W parameters of the 511 keV peak of the annihilation radiation. Software estimates values of the binding electron energies by fitting the CDB spectrum with contributions from e+ annihilation on electrons with different wave functions.</p>
         <p>Electrons from conduction band contribute into the spectrum as an inverted parabola. Upon the shape of the parabola we calculate Fermi energy.</p>
         <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
-        <p><a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
+        <p>
+            <a class="btn btn-primary" href="./../s-w-doppler-parameters-software">Learn more</a>
+            <a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-link" rel="nofollow" target="_blank">View on GitHub →</a>
+        </p>
     </div>
 </div>
 
@@ -42,6 +48,6 @@ As well as we develop new hardware facilities we do software too. Most of our so
         <p>A flexible terminal-based positron lifetime fitting software. Graphical user interface is in progress.</p>
         <p>Software supports deconvolution of lifetime spectra into conventional multiexponential model as well as trapping model. Supports integration of models with custom fitting parameters.</p>
         <p><code class="text-black-50">C++, CERN ROOT framework, GNU Automake</code></p>
-        <p><a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-primary" rel="nofollow" target="_blank">View on GitHub</a></p>
+        <p><a href="https://github.com/petrstepanov/sw-calculator" class="btn btn-link px-0" rel="nofollow" target="_blank">View on GitHub →</a></p>
     </div>
 </div>

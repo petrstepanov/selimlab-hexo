@@ -5,10 +5,10 @@ date: 2019-10-29 00:45:30
 
 <h2>Photo-chemical synthesis of nanomaterials</h2>
 <div class="row">
-    <div class="col-md-5">
+    <div class="col-md-6">
         <img src="index/synthesis-of-nanomaterials.png" class="w-100" alt="Synthesis of nanomaterials" />
     </div>
-    <div class="col-md-6 col-md-offset-1">
+    <div class="col-md-6">
         <p>We explore the use of photons with variable wavelength and intensity  to control the particle size and morphology and deposit nanocrystalline films of semiconductors and dielectrics for LEDs and energy applications.</p>
         <p>The growth processes take place in our class 100 clean room to obtain high purity materials by employing our wide range  illumination sources  and panels.</p>
     </div>
@@ -27,10 +27,10 @@ date: 2019-10-29 00:45:30
 ## Multifunctional complex oxides
 
 <div class="row">
-    <div class="col-sm-6 col-md-4">
-        <img src="index/complex-oxides.png" class="w-100" alt="Complex oxides" />
+    <div class="col-sm-6">
+        <img src="index/complex-oxides.png" class="w-75" alt="Complex oxides" />
     </div>
-    <div class="col-sm-6 col-md-7 col-md-offset-1">
+    <div class="col-sm-6">
         <div class="spacer-4em hidden-xs"></div>
         <p>We explore novel physical phenomena such as the formation of 2DEG and giant photoconductivity  induced in  multifunctional complex oxides by generating and tuning point defects at the interfaces.</p>
         <p>Following epitaxial growth by MOCVD or ALD, defects  are populated by photo- and thermal processing using our unique gas mixing panel with atomic precision control.</p>
@@ -38,7 +38,7 @@ date: 2019-10-29 00:45:30
 </div>
 
 ## Positron annihilation spectroscopy
-<img src="index/digital-doppler-spectrometer.png" class="w-100" alt="Doppler positron spectrometer" />
+<img src="index/digital-doppler-spectrometer.png" class="w-100 mb-5" alt="Doppler positron spectrometer" />
 
 We developed the first fully digital Coincidence Doppler broadening spectrometer. It is expected to greatly improve the sensitivity of Doppler broadening in probing the electron momentum distributions and identifying the chemical environment around defects.
 

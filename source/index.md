@@ -15,11 +15,6 @@ layout: index
             <li>One of the <a href="https://wiki.jlab.org/pwgwiki/index.php/Main_Page" rel="nofollow">10 members of Positron Working Group at the Thomas Jefferson Laboratory</a> (JLab).</li>
         </ol>
         <p>Selim is editor of scientific book, author of 78 peer reviewed articles and two book chapters and sole inventor of 3 patents, 1 issued in 2016 and 2 pending, in addition to her significant invention at the beginning of her career “Accelerator based positron annihilation spectroscopy” technique which extends positron annihilation spectroscopy to numerous new fields in materials science. The technique is known today as Gamma induced positron spectroscopy (GIPS); it has been recently adopted to build a unique materials research facility at the superconducting accelerator facility in Dresden, Germany. <a href="http://www.hzdr.de/db/Cms?pNid=1732" rel="nofollow">ELBE – Center for High-Power Radiation Sources - Helmholtz-Zentrum Dresden-Rossendorf</a>, HZDR.</p>
-        <h2>Our major research projects include</h2>
-        <ul class="spaced mb-5">
-            <li>Fundamental and applied research on <strong>wide band gap materials</strong>. Synthesis and characterization.</li>
-            <li><strong>Defect studies and radiation damage</strong>. We are experienced in following metods: XRD, PALS, DBR, FTIR.</li>
-        </ul>
     </div>
     <div class="col-md-4">
         <div class="card mt-2">
@@ -42,5 +37,14 @@ layout: index
                 </div>
             </div>
         </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <h2>Our major research projects include</h2>
+        <ul class="spaced mb-5">
+            <li>Fundamental and applied research on <strong>wide band gap materials</strong>. Synthesis and characterization.</li>
+            <li><strong>Defect studies and radiation damage</strong>. We are experienced in following metods: XRD, PALS, DBR, FTIR.</li>
+        </ul>
     </div>
 </div>

@@ -1,0 +1,20 @@
+- image: index/positron-lifetime-spectrometer.jpg
+  details: Positron lifetime spectrometer
+
+- image: index/positron-doppler-spectrometer.jpg
+  details: Digital Coincidence Doppler Broadening Positron Annihilation Spectrometer.
+
+- image: index/hall-effect-system.jpg
+  details: Temperature-dependent Photo-Hall Effect System and Magnetoresistance effect setup.
+
+- image: index/thermo-luminescence-spectrometer.jpg
+  details: Thermo-luminescence spectrometer
+
+- image: index/x-ray-luminescence-spectrometer.jpg
+  details: X-ray luminescence based spectrometer for luminescence and scintillation measurements. 
+
+- image: index/uv-vis-spectrometer.jpg
+  details: UV-VIS-NIR spectrophotometer for optical absorption measurements
+
+- image: index/photoluminescence-spectrometers.jpg
+  details: Photoluminescence spectrometers

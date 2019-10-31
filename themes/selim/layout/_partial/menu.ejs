@@ -1,5 +1,5 @@
 <header id="menu">
-    <img class="logo" src="<%- url_for(theme.logo) %>" />
+    <a href="/"><img class="logo" src="<%- url_for(theme.logo) %>" /></a>
     <p class="menu-slogan"><%- theme.slogan %></p>
     <p class="h6 mt-5 mb-3 menu-heading">Pages</p>
     <nav>
@@ -29,11 +29,11 @@
         <ul class="list-unstyled mb-2">
             <% for (var i in theme.links_funding){ %>
                 <li class="menu-list-item">
-                        <a class="menu-link" href="<%- theme.links_funding[i] %>" rel="nofollow" target="_blank">
-                            <span><%- i %></span>
-                            <i class="icon ion-md-open ml-2"></i>
-                        </a>
-                    </li>
+                    <a class="menu-link" href="<%- theme.links_funding[i] %>" rel="nofollow" target="_blank">
+                        <span><%- i %></span>
+                        <i class="icon ion-md-open ml-2"></i>
+                    </a>
+                </li>
             <% } %>	
         </ul>
     </nav>

@@ -1,0 +1,60 @@
+<% var post = page %>
+
+<% if (post.featured_image){ %>
+<div class="featured-image" style="background-image: url(index/<%- post.featured_image %>)"></div>
+<% } %>
+
+<div id="text-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <article id="<%= post.layout %>-<%= post.slug %>" itemscope itemprop="blogPost">
+                    <div class="article-inner">
+                        <header class="article-header">
+                            <%- partial('post/title', {class_name: 'article-title'}) %>
+                        </header>
+                        <div class="article-entry" itemprop="articleBody">
+
+                            <!-- <p class="lead"></p> -->
+                            <h2>Synthesis Facilities</h2>
+                            <div class="row">
+                                <div class="card-columns">                                
+                                    <% for (var facility in site.data.facilitiesSynthesis) { %>
+                                        <%- partial('card/facility', {facility: site.data.facilitiesSynthesis[facility]}) %>
+                                    <% } %>
+                                </div>
+                            </div>
+                            <h2>Characterization Facilities</h2>
+                            <div class="row">
+                                <div class="card-columns">
+                                    <% for (var facility in site.data.facilitiesCharacterization) { %>
+                                        <%- partial('card/facility', {facility: site.data.facilitiesCharacterization[facility]}) %>
+                                    <% } %>
+                                </div>
+                            </div>                                             
+                        </div>
+                        <div class="article-footer">
+                            <% if (post.comments && config.disqus_shortname){ %>
+                            <a href="<%- post.permalink %>#disqus_thread"
+                                class="article-comment-link"><%= __('comment') %></a>
+                            <% } %>
+                            <%- partial('post/tag') %>
+                        </div>
+                    </div>
+                    <% if (!index){ %>
+                    <%- partial('post/nav') %>
+                    <% } %>
+                </article>
+
+                <% if (!index && post.comments && config.disqus_shortname){ %>
+                <section id="comments">
+                    <div id="disqus_thread">
+                        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments
+                                powered by Disqus.</a></noscript>
+                    </div>
+                </section>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>

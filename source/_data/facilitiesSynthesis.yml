@@ -1,0 +1,14 @@
+- image: index/clean-room.jpg
+  details: Clean Room Class 100
+
+- image: index/gas-mixing-panel.jpg
+  details: State of the art automatic gas mixing panel
+
+- image: index/annealing-furnace.jpg
+  details: Nano-synthesis unit and annealing furnaces (up to 1700 C)
+
+- image: index/spin-processor.jpg
+  details: Thin and ultra-thin films spin processor.
+
+- image: index/atomic-layer-deposition.jpg
+  details: Atomic Layer Deposition and Metal Organic Chemical Vapour Deposition Systems 

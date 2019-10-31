@@ -1,0 +1,62 @@
+<% var post = page %>
+
+<% if (post.featured_image){ %>
+<div class="featured-image" style="background-image: url(index/<%- post.featured_image %>)"></div>
+<% } %>
+
+<div id="text-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <article id="<%= post.layout %>-<%= post.slug %>" itemscope itemprop="blogPost">
+                    <div class="article-inner">
+                        <header class="article-header">
+                            <%- partial('post/title', {class_name: 'article-title'}) %>
+                        </header>
+                        <div class="article-entry" itemprop="articleBody">
+
+                            <p class="lead">With current and former group members coming from 3 continents and 7 different countries, we enjoy the diverse perspective this brings to the group. We welcome everyone of different backgrounds and identities.</p>
+                            <h2>Current Group</h2>
+                            <div class="row">
+                                <% for (var person in site.data.people) { %>
+                                    <%- partial('card/person', {person: site.data.people[person]}) %>
+                                <% } %>
+                            </div>
+                            <h2>Visiting Collaborators</h2>
+                            <div class="row">
+                                <% for (var person in site.data.peopleVisiting) { %>
+                                    <%- partial('card/person', {person: site.data.peopleVisiting[person]}) %>
+                                <% } %>
+                            </div>
+                            <h2>Former Members</h2>
+                            <div class="row">
+                                <% for (var person in site.data.peopleFormer) { %>
+                                    <%- partial('card/person', {person: site.data.peopleFormer[person]}) %>
+                                <% } %>
+                            </div>                                                  
+                        </div>
+                        <div class="article-footer">
+                            <% if (post.comments && config.disqus_shortname){ %>
+                            <a href="<%- post.permalink %>#disqus_thread"
+                                class="article-comment-link"><%= __('comment') %></a>
+                            <% } %>
+                            <%- partial('post/tag') %>
+                        </div>
+                    </div>
+                    <% if (!index){ %>
+                    <%- partial('post/nav') %>
+                    <% } %>
+                </article>
+
+                <% if (!index && post.comments && config.disqus_shortname){ %>
+                <section id="comments">
+                    <div id="disqus_thread">
+                        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments
+                                powered by Disqus.</a></noscript>
+                    </div>
+                </section>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
