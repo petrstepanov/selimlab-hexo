@@ -7,7 +7,7 @@
                 <% } %>
                 <% site.posts.sort('date', -1).limit(number).forEach(function(post) { %>
                     <div class="row my-4">
-                        <div class="col-sm-2">
+                        <div class="col-sm-2 d-none d-sm-block">
                             <div class="post-thumbnail-wrapper">
                                 <% if (post.thumbnail){ %>
                                     <img class="w-100" src="<%- url_for(post.path) + post.thumbnail %>" />

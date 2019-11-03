@@ -1,4 +1,4 @@
-<div class="heading-container">
+<div class="heading-container <%- post.featured_image ? 'has-featured-image' : ''; %>">
   <div class="heading">
     <h1 itemprop="name" class="mt-3"><%= post.title %></h1>
     <% if (post.subtitle){ %>

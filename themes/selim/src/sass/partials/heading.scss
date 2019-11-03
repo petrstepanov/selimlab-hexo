@@ -10,18 +10,14 @@ body {
     text-align: center;
     margin-top: 2.2em;
     margin-bottom: 2.2em;
-    overflow-y: hidden;
-    overflow-x: visible;
 
     .heading {
         background-color: $heading-colnainer-bg;
         text-align: center;
         position: relative;    
         display: inline-block;
-        margin-left: $border-x-width; 
-        margin-right: $border-x-width;
-        padding-left: $border-x-width; 
-        padding-right: $border-x-width;
+        padding-left: $border-x-width/2; 
+        padding-right: $border-x-width/2; 
 
         hr {
             width: 2.75em;
@@ -30,26 +26,41 @@ body {
     
         p {
             color: $text-gray;
-        }
-    
-        &:before {
-            content: "";
-            position: absolute;
-            left: -$border-x-width;
-            top: 0;
-            border-top: $border-y-width solid transparent;
-            border-bottom: $border-y-width solid transparent;
-            border-right: $border-x-width solid $heading-colnainer-bg;
-        }
-
-        &:after {
-            content: "";
-            position: absolute;
-            right: -$border-x-width;
-            top: 0;
-            border-top: $border-y-width solid transparent;
-            border-bottom: $border-y-width solid transparent;
-            border-left: $border-x-width solid $heading-colnainer-bg;
-        }            
+        }           
     }
+
+    &.has-featured-image {
+        overflow-y: hidden;
+        overflow-x: visible;
+
+        .heading {
+            margin-left: $border-x-width; 
+            margin-right: $border-x-width;
+    
+            &:before {
+                content: "";
+                position: absolute;
+                left: -$border-x-width;
+                top: 0;
+                border-top: $border-y-width solid transparent;
+                border-bottom: $border-y-width solid transparent;
+                border-right: $border-x-width solid $heading-colnainer-bg;
+            }
+    
+            &:after {
+                content: "";
+                position: absolute;
+                right: -$border-x-width;
+                top: 0;
+                border-top: $border-y-width solid transparent;
+                border-bottom: $border-y-width solid transparent;
+                border-left: $border-x-width solid $heading-colnainer-bg;
+            }
+    
+            @include media-breakpoint-up(sm){
+                padding-left: $border-x-width; 
+                padding-right: $border-x-width;    
+            }
+        }        
+    }    
 }

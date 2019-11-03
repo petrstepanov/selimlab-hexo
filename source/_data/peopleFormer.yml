@@ -1,5 +1,5 @@
 - image: index/david-winarski.jpg
-  name: David Winarski 🇺🇸
+  name: David Winarski
   role: PhD. Graduated 2019.
   details: Hall effect and x-ray diffraction. MAnufacturing and studying ZnO thin films. Hockey coach.
   rg: https://www.researchgate.net/profile/Dave_Winarski
@@ -7,7 +7,7 @@
   email: djwinar@bgsu.edu
 
 - image: index/pooneh-saadatkia.jpg
-  name: Pooneh Saadatkia 🇮🇷
+  name: Pooneh Saadatkia
   role: PhD. Graduated 2019.
   details: Responsible for thermoluminescence experiments. Investigates SrTiO3 semiconductors.
   rg: https://www.researchgate.net/profile/Tianyuan_Zhou3
@@ -15,7 +15,7 @@
   email: poonehs@bgsu.edu
 
 - image: index/userpic-naresh.jpg
-  name: Naresh Adhikari 🇳🇵
+  name: Naresh Adhikari
   role: MS. Graduated 2019.
   details: Defect studies. Lifetime and Doppler positron spectroscopy.
   rg: https://www.researchgate.net/profile/Naresh_Adhikari3
@@ -23,35 +23,35 @@
   email: naresha@bgsu.edu
 
 - image: index/userpic-prabin.jpg
-  name: Prabin Dulal 🇳🇵
+  name: Prabin Dulal
   role: MS. Graduated 2019.
   details: Hall effect measurements and photoconductivity studies.
   linkedin: https://www.linkedin.com/in/prabin-dulal-23aa1215b/
   email: pdulal@bgsu.edu
 
 - image: index/dhan-rana.jpg
-  name: Dhan Rana 🇳🇵
+  name: Dhan Rana
   role: MS. Graduated 2018.
   linkedin: https://www.linkedin.com/in/dhan-rana-7b1261131/
   rg: https://www.researchgate.net/profile/Dhan_Rana2/research
   email: drana@bgsu.edu
 
 - image: index/micah-haseman.jpg
-  name: Micah Haseman 🇺🇸
+  name: Micah Haseman
   role: MS. Graduated 2017.
   details: Materials. Electronic Structure. Chemical Physics. Applied and Experimental Physics.
   rg: https://www.researchgate.net/profile/Micah_Haseman
   email: micahsh@bgsu.edu
 
 - image: index/ben-hardy.jpg
-  name: Benjamin Hardy 🇺🇸
+  name: Benjamin Hardy
   role: MS. Graduated 2017.
   details: Imaging. Magnetic Resonance. Medical Imaging. Diffusion Magnetic Resonance Imaging.
   rg: https://www.researchgate.net/profile/Benjamin_Hardy3
   email: bhardy@bgsu.edu
 
 - image: index/anthony-colosimo.jpg
-  name: Anthony Colosimo 🇺🇸
+  name: Anthony Colosimo
   role: MS. Graduated 2017.
   details: Material Characterization. Thin Films and Nanotechnology.
   rg: https://www.researchgate.net/profile/Anthony_Colosimo
@@ -59,13 +59,13 @@
   email: anthonc@bgsu.edu
 
 - image: index/jack-warfield.jpg
-  name: Jack Warfield 🇺🇸
+  name: Jack Warfield
   role: MS. Graduated 2017.
   linkedin: https://www.linkedin.com/in/jack-warfield-a8831a121/
   email: jacktw@bgsu.edu
 
 - image: index/sunil-thapa.jpg
-  name: Sunil Thapa 🇳🇵
+  name: Sunil Thapa
   role: MS. Graduated 2016.
   details: Machine Learning. SQL. MATLAB. Optics and Photonics.
   rg: https://www.researchgate.net/profile/Sunil_Thapa7
