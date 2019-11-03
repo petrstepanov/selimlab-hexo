@@ -19,11 +19,13 @@ $roboto-font-path: './../fonts';
 @import "typography";
 @import "utilities";
 
-// Modules
+// Partials
 @import "partials/layout";
 @import "partials/heading";
 @import "partials/featured-image";
 @import "partials/menu-toggle";
+@import "partials/thumbnail";
 
+// Modules
 @import "modules/splash-screen";
 @import "modules/morph-navigation";

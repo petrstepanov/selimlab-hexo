@@ -1,6 +1,7 @@
 ---
 title: TLIST Processor. Two-dimentional energy spectrum processor.
 date: 2019-10-30 04:24:45
+thumbnail: thumbnail.gif
 ---
 
 Doppler broadening of annihilation radiation is a powerful method for studying point defects in materials. At SelimLab we have a fully digital spectrometer that utilizes Canberra's Ge high purity detectors and LYNX digital signal analyzers. Facility outputs two-dimentional spectra that represent pairs of photon energy events, registered simultaneously.

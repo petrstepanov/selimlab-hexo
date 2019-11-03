@@ -1,8 +1,6 @@
 <% var post = page %>
 
-<% if (post.featured_image){ %>
-<div class="featured-image" style="background-image: url(index/<%- post.featured_image %>)"></div>
-<% } %>
+<%- partial('post/featured-image') %>
 
 <div id="text-content">
     <div class="container-fluid">

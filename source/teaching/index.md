@@ -1,7 +1,7 @@
 ---
 title: Teaching
 date: 2019-10-29 00:46:16
-featured_image: front.jpg
+featured_image: index/front.jpg
 ---
 
 ## Modern Physics Laboratory (Fall 2014)

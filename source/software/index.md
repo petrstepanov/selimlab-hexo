@@ -2,7 +2,7 @@
 title: Software Development at SelimLab
 subtitle: We do C++, Cern ROOT, Qt and Java
 date: 2019-10-29 00:45:35
-featured_image: front.jpg
+featured_image: index/front.jpg
 ---
 
 As well as we develop new hardware facilities we do software too. Most of our software is open-source and released under the General Public License. Hence our products are accessible to everyone. We host apps at Github which makes it easy to collaborate, fork and access our applications. Below find our public products.

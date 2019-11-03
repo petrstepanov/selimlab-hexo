@@ -1,3 +1,4 @@
+var mathjax = require('mathjax');
 var splashScreen = require('./modules/splash-screen');
 var morphNavigation = require('./modules/morph-navigation');
 

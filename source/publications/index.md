@@ -2,8 +2,8 @@
 title: Publications
 subtitle: Last updated December 12, 2016
 date: 2019-10-29 00:45:21
-featured_image: front.jpg
-thumbnail: front.jpg
+featured_image: index/front.jpg
+thumbnail: index/thumbnail.jpg
 ---
 
 <p class="lead">41 peer reviewed articles were published at BGSU (Aug 2013 - 2016).</p>

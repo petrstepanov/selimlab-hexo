@@ -2,7 +2,7 @@
 title: P.I. Dr. Farida Selim
 subtitle: Bowling Green State University, OH, USA
 date: 2019-10-29 00:46:16
-layout: index
+layout: frontpage
 ---
 
 <div class="row justify-content-between">
@@ -42,7 +42,7 @@ layout: index
 <div class="row">
     <div class="col">
         <h2>Our major research projects include</h2>
-        <ul class="spaced mb-5">
+        <ul class="spaced">
             <li>Fundamental and applied research on <strong>wide band gap materials</strong>. Synthesis and characterization.</li>
             <li><strong>Defect studies and radiation damage</strong>. We are experienced in following metods: XRD, PALS, DBR, FTIR.</li>
         </ul>

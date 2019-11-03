@@ -1,1 +1,5 @@
-	<%- partial('_partial/article', {post: page, index: true}) %>
+<% console.log(page) %>
+
+<% page.title = "Blog Posts"; %>
+
+<%- partial('_partial/archive', {post: page}) %>

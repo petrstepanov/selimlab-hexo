@@ -10,14 +10,16 @@ body {
     text-align: center;
     margin-top: 2.2em;
     margin-bottom: 2.2em;
+    overflow-y: hidden;
+    overflow-x: visible;
 
     .heading {
         background-color: $heading-colnainer-bg;
         text-align: center;
         position: relative;    
         display: inline-block;
-        padding-left: $border-x-width; 
-        padding-right: $border-x-width;
+        margin-left: $border-x-width; 
+        margin-right: $border-x-width;
 
         hr {
             width: 2.75em;
