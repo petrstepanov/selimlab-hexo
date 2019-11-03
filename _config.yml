@@ -100,15 +100,20 @@ deploy:
 
 # Math Formulas Render Support
 math:
-  engine: 'mathjax' # 'mathjax' or 'katex'
+  engine: "mathjax" # 'mathjax' or 'katex'
   mathjax:
     src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=default&ver=1.3.11
     config:
       tex2jax:
         inlineMath:
-          - - '$'
-            - '$'
-        processEscapes: true
+          - - "$"
+            - "$"
+          - - "\\("
+            - "\\)"
+        processEscapes: false
+      TeX:
+        equationNumbers:
+          autoNumber: "AMS"
   katex:
     css: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
     js: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
