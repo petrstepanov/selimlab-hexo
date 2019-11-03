@@ -2,6 +2,7 @@
 title: Tao-Eldrup positronium bubble model
 date: 2017-04-19 00:49:58
 tags:
+mathjax: true
 ---
 
 Tao-Eldrup model provides a simple but widely used correlation between the ortho-positronium bubble size and its lifetime in solid media.
@@ -18,11 +19,9 @@ In order to better understand the math behind the model let's recall to the triv
 
 Let's solve a Schrödinger equation for a particle located in a potential well with the infinite "walls". This well is described by the potential energy of following kind:
 
-\begin{equation*}
-U(x)=\begin{cases}
-\infty,&amp;\text{$x &lt; 0$;}\\ 0,&amp;\text{$0 \leq x \leq L$;}\\ \infty,&amp;\text{$x &gt; L$.}
-\end{cases}
-\end{equation*}
+\begin{equation}
+  U(x)=\begin{cases}\infty,&amp;\text{$x &lt; 0$;}\\ 0,&amp;\text{$0 \leq x \leq L$;}\\ \infty,&amp;\text{$x &gt; L$.}\end{cases}
+\end{equation}
 
 where $L$ is the box width and the energy minimum is at the bottom of the box.
 
@@ -34,20 +33,23 @@ where $L$ is the box width and the energy minimum is at the bottom of the box.
 
 The stationary state Schrödinger equation is following:
 
-\begin{equation} \label{eq:schroedinger}
-\hat{H} \psi = E \psi
+\begin{equation} 
+  \hat{H} \psi = E \psi
+  \label{eq:schroedinger}
 \end{equation}
 
 with the Hamiltonian operator being
 
-\begin{equation} \label{eq:hamiltonian}
-\hat{H} = - \frac{\hbar}{2m} \Delta + U
+\begin{equation} 
+  \hat{H} = - \frac{\hbar}{2m} \Delta + U
+  \label{eq:hamiltonian}
 \end{equation}
 
 substitution of \eqref{eq:hamiltonian} into \eqref{eq:schroedinger} gives us general time-independent Schrödinger equation:
 
-\begin{equation} \label{eq:sch_indep}
-\Delta \psi +\frac{2m}{\hbar^2}\left ( E-U \right ) \psi = 0
+\begin{equation}
+  \Delta \psi +\frac{2m}{\hbar^2}\left ( E-U \right ) \psi = 0
+  \label{eq:sch_indep}
 \end{equation}
 
 Considering the one-dimensional case, where the Laplace operator is just $\Delta = \partial^2/\partial x^2$ the \eqref{eq:sch_indep} equation becomes:
@@ -58,9 +60,9 @@ Considering the one-dimensional case, where the Laplace operator is just $\Delta
 
 It is easy to show that outside of the well ($x &lt; 0$ and $x&gt;L$) the particle wave function is zero. Let's substitute $U=\infty$ to \eqref{eq:sch_indep_linear} and assume that $E\ll\infty$. We get the following
 
-\begin{equation*}
+\begin{equation}
 \psi = \frac{1}{\infty} \frac{\partial^2 \psi}{\partial x^2}
-\end{equation*}
+\end{equation}
 
 so we conclude that $\psi$ is zero outside the box.
 
@@ -158,9 +160,9 @@ Here if we consider the wave function in the center of the sphere $(r=0)$ it tur
 
 which contradicts the fundamental continuity wave function principle. Thus, we fix the $A$ coefficient to zero and \eqref{eq:psi_sphere} turns into
 
-\begin{equation*}
+\begin{equation}
 \psi = B \frac{1}{r} \sin\left( \sqrt{2mE}\cdot r/\hbar \right )
-\end{equation*}
+\end{equation}
 
 Next we apply the boundary condition $\psi(R)=0$. Similar to the first problem, we get $E = n^2 \pi^2 \hbar^2/ (2mR^2)$, where $n \in \cal{N}$ and our expression for $\psi$ function \eqref{eq:psi_sphere} becomes
 
@@ -184,9 +186,9 @@ E = E_{\rm Ps} + E_{\rm surface} \to \text{minimize over}~~ R_\infty
 
 First let's calculate the positronium energy. We just have to apply a Hamiltonian operator to positronium wave function \eqref{eq:psi_sphere_final}. We consider Ps in a ground state which means we fix $n=1$.
 
-\begin{equation*}
+\begin{equation}
 \hat{H}\psi = \left ( -\frac{\hbar^2}{2m_{\rm Ps}} \Delta + U \right ) \psi
-\end{equation*}
+\end{equation}
 
 We use the positronium wave function from \eqref{eq:psi_sphere_final}. Remember that the potential energy inside the sphere is zero and the Laplace operator in spherical coordinates is $\Delta = 1/r \cdot \partial^2/\partial r^2 ( r \psi)$. So we get:
 

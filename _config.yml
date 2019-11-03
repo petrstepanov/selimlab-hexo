@@ -61,7 +61,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: '/blog'
+  path: "/blog"
   per_page: 0
   order_by: -date
 
@@ -97,3 +97,18 @@ theme: selim
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type:
+
+# Math Formulas Render Support
+math:
+  engine: 'mathjax' # 'mathjax' or 'katex'
+  mathjax:
+    src: https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=default&ver=1.3.11
+    config:
+      tex2jax:
+        inlineMath:
+          - - '$'
+            - '$'
+        processEscapes: true
+  katex:
+    css: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
+    js: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
