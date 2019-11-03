@@ -1,12 +1,12 @@
 ---
 title: Tao-Eldrup positronium bubble model
 date: 2017-04-19 00:49:58
-tags:
-mathjax: true
+thumbnail: thumbnail.gif
 ---
 
 Tao-Eldrup model provides a simple but widely used correlation between the ortho-positronium bubble size and its lifetime in solid media.
 <!--more-->
+
 The ortho-positronium (o-Ps) lifetime in vacuum is approximately 142ns whereas in solid media it is considerably less approximately 10-100 times. The phenomena is described by so-called pick-off annihilation process when an electron form positronium atom is annihilated by another nearby electron.
 
 The first person who attempted to explain this o-Ps lifetime phenomena was Richard Ferrel. He studied Ps in a liquid helium. Ferrel suggested that the Ps atom forms a nano-bubble around itself.

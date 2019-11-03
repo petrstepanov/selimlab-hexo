@@ -5,7 +5,8 @@ tags:
 thumbnail: farida-selim-award.jpg
 ---
 
-Dr. Farida Selim, faculty member in the Department of Physics and Astronomy at Bowling Green State University, says she has been privileged to mentor nine undergraduate students in her two years at the University.<!--more-->
+Dr. Farida Selim, faculty member in the Department of Physics and Astronomy at Bowling Green State University, says she has been privileged to mentor nine undergraduate students in her two years at the University.
+<!--more-->
 
 Nearly all of these students have had the opportunity to present his or her work at international or regional conferences. In recognition of her mentorship, she received the 2016 Elliott L. Blinn Award for Faculty-Undergraduate Student Innovative Basic Research/Creative Work at the Faculty Excellence Awards Ceremony and Reception April 14.
 

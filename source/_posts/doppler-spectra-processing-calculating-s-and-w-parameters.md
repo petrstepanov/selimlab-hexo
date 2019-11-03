@@ -5,7 +5,9 @@ tags:
 thumbnail: thumbnail.gif
 ---
 
-In this post we will discuss the process of calculating the S and W integration parameters from two-dimentional doppler histograms.<!--more-->
+In this post we will discuss the process of calculating the S and W integration parameters from two-dimentional doppler histograms.
+<!--more-->
+
 <h2>Introduction</h2>
 One of the crucial material characterization facility in our lab is Doppler positron spectrometer. Our two-detector setup utilizes a pair of hyperpure germanuim detectors connected to digital LYNX analyzers produced by Canberra.
 

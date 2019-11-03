@@ -1,11 +1,10 @@
 ---
 title: Postdoc Position at SelimLab
 date: 2018-02-27 00:49:58
-tags:
+thumbnail: thumbnail.gif
 ---
 
 We are looking for a postdoc with experience in one or more of following areas. Positron annihilation spectroscopy, metal-organic chemical vapour deposition, luminescence techniques including photo- and thermoluminescence, device fabrication, vacuum technologies and electron guns.
-
 <!--more-->
 
 We are looking for a postdoc with experience in one or more of following areas. Positron annihilation spectroscopy, metal-organic chemical vapour deposition, luminescence techniques including photo- and thermoluminescence, device fabrication, vacuum technologies and electron guns.
