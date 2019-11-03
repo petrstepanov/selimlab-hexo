@@ -26,7 +26,7 @@ menuFooter:
   Blog: /blog
 
 links_projects:
-  Project FUTURE: /
+  Project FUTURE: https://www.lanl.gov/projects/future/index.php
   ICPA-18 <span class="d-sm-none d-md-inline">conference</span>: https://www.bgsu.edu/icpa18.html
   IWZnO 2020 <span class="d-sm-none d-md-inline">conference</span>: http://physics.bgsu.edu/IWZnO_2020/
 
