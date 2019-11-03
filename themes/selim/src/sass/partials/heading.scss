@@ -20,6 +20,8 @@ body {
         display: inline-block;
         margin-left: $border-x-width; 
         margin-right: $border-x-width;
+        padding-left: $border-x-width; 
+        padding-right: $border-x-width;
 
         hr {
             width: 2.75em;
