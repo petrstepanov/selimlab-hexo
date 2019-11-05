@@ -17,3 +17,9 @@
         mix-blend-mode: soft-light;
     }
 }
+
+@supports not (mix-blend-mode: soft-light) {
+    .featured-image:after {
+      opacity: 0.3;
+    }
+  }
