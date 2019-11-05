@@ -6,9 +6,10 @@ $button-color: $blue;
     bottom: $menu-toggle-margin;
     right: $menu-toggle-margin;
     border-radius: 30px;
+    margin-bottom: 0.3em;
     z-index: 100;
     width: 6.5em;
-    box-shadow: 0 0 0 0 $button-color, 0 0.625em 1.25em rgba($button-color, 0.2), 0 0.375em 0.75em rgba($button-color, 0.2);
+    @include material-shadow($button-color);
 
     .label-close {
         display: none;

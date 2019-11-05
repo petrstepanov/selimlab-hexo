@@ -19,7 +19,7 @@
                         <div class="col-sm-10">
                             <h3 class="mt-0 mb-1"><%- post.title %></h3>
                             <p><small class="text-muted"><%- time(post.date, 'DD MMMM, YYYY') %></small>
-                            <p><%- strip_html(post.excerpt) %> <a href="<%- url_for(post.path) %>" title="<%- post.title %>">Continue reading →</a></p>
+                            <p><%- strip_html(post.excerpt) %> <a class="no-wrap" href="<%- url_for(post.path) %>" title="<%- post.title %>">Continue reading →</a></p>
                             <script>console.log('<%- post.excerpt %>')</script>
                         </div>
                     </div>

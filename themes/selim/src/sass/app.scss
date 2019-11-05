@@ -1,3 +1,6 @@
+// Mixins
+@import "mixins";
+
 // Animate.CSS
 @import "../../node_modules/animate.css/animate";
 
@@ -24,6 +27,7 @@ $roboto-font-path: './../fonts';
 @import "partials/heading";
 @import "partials/featured-image";
 @import "partials/menu-toggle";
+@import "partials/go-up";
 @import "partials/thumbnail";
 
 // Modules

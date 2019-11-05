@@ -1,0 +1,4 @@
+// Mixins
+@mixin material-shadow($color) {
+    box-shadow: 0 0 0 0 $color, 0 0.625em 1.25em rgba($color, 0.2), 0 0.375em 0.75em rgba($color, 0.2);
+}

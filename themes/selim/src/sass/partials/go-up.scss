@@ -1,0 +1,12 @@
+$go-up-margin: 15px;
+$go-up-color: gray;
+
+#go-up {
+    position: fixed;
+    bottom: $go-up-margin;
+    left: $go-up-margin;
+    border-radius: 30px;
+    margin-bottom: 0.3em;
+    z-index: 50;
+    @include material-shadow($go-up-color);
+}
